@@ -1,0 +1,10 @@
+venv/
+*.xml
+*.pyc
+.idea/
+*/.pytest_cache/
+*/__pycache__
+/server_info.ini
+HtmlReport/*
+pictures/set1.png
+pictures/set.png

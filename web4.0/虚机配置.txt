@@ -1,0 +1,6 @@
+虚机winrm配置：
+1.winrm enumerate winrm/config/listener  #查看是否开启winrm
+2.winrm quickconfig
+3.winrm e winrm/config/listener
+4.winrm set winrm/config/service/auth @{Basic="true"}
+5.winrm set winrm/config/service @{AllowUnencrypted="true"}
